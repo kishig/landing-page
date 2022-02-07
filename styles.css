@@ -118,13 +118,17 @@ h2 {
 
 @media screen and (min-width: 520px) {
     .bunch {
-        width: 300px;
+        min-width: 300px;
     }
 
     .action {
         max-height: 230px;
         min-width: 520px;
-    }  
+    } 
+    
+    .pic {
+        max-width:450px;
+    }
   
 }    
 
